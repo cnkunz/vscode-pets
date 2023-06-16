@@ -12,11 +12,11 @@ export class Cannabis extends BasePetType {
         sequenceStates: [
             {
                 state: States.sitIdle,
-                possibleNextStates: [States.walkRight, States.runRight],
+                possibleNextStates: [States.walkRight],
             },
             {
                 state: States.walkRight,
-                possibleNextStates: [States.walkLeft, States.runLeft],
+                possibleNextStates: [States.walkLeft],
             },
             {
                 state: States.walkLeft,
