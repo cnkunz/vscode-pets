@@ -57,4 +57,11 @@ export const CANNABIS_NAMES: ReadonlyArray<string> = [
     'Green',
     'Hash',
     'Flower',
+    'Towlie',
+    'Butta',
+    'Rosin',
+    'Cheba',
+    'Mota',
+    'Electric Lettuce',
+    'Blunty McBluntface'
 ];
