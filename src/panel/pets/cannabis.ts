@@ -16,7 +16,7 @@ export class Cannabis extends BasePetType {
             },
             {
                 state: States.walkRight,
-                possibleNextStates: [States.walkLeft],
+                possibleNextStates: [States.walkLeft, States.sitIdle],
             },
             {
                 state: States.walkLeft,
@@ -34,6 +34,7 @@ export class Cannabis extends BasePetType {
                 possibleNextStates: [
                     States.walkRight,
                     States.walkLeft,
+                    States.sitIdle
                 ],
             },
         ],
