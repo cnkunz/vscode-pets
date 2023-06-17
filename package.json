@@ -169,6 +169,7 @@
                         "type": "string",
                         "enum": [
                             "cat",
+                            "cannabis",
                             "chicken",
                             "crab",
                             "clippy",

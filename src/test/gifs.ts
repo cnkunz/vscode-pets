@@ -16,6 +16,10 @@ const pets: { [key: string]: { colors: string[]; states: string[] } } = {
             'with_ball',
         ],
     },
+    cannabis: {
+        colors: ['green'],
+        states: ['idle', 'run', 'walk', 'with_ball'],
+    },
     chicken: {
         colors: ['white'],
         states: ['idle', 'run', 'swipe', 'walk', 'walk_fast', 'with_ball'],
